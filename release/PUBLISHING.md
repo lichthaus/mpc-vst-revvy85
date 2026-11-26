@@ -1,6 +1,9 @@
 # Publishing Revvy85 (checklist)
 
-Nothing here is published yet. Each outward step needs the owner's go-ahead.
+Status 2026-11-26: steps 1-4 done. Repo https://github.com/lichthaus/mpc-vst-revvy85, release v0.4.0,
+catalogue PR https://github.com/open-mpc/mpc-vst-plugins/pull/1206 (waiting for a maintainer's review).
+For a new version: bump plugin.json, run `release/release.sh X.Y.Z`, test on the device, update
+`tested.json`, tag `vX.Y.Z` and attach the zip; the catalogue picks it up with no new PR.
 
 1. **Device test of the release zip**: done 2026-11-26 on the Key 37 (MPC OS 3.10.1.12): loads and sounds
    right (owner). Recorded in `tested.json`.
