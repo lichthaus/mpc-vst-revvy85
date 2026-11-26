@@ -2,11 +2,8 @@
 
 Nothing here is published yet. Each outward step needs the owner's go-ahead.
 
-1. **Device test of the release zip** on the Key 37: install the folder from
-   `dist/Revvy85-0.4.0-mpc-aarch64.zip` (`portable/Lichthaus - VST - Revvy85/`) into `VST2 Plugins`,
-   remove the private `Lichthaus - VST - REV7` folder first (same uid), add the EPROM, restart MPC,
-   load it, check sound, panel and a saved project. Then add `tested.json` (device "MPC Key 37 Gen2",
-   firmware, date) for the Verified tier.
+1. **Device test of the release zip**: done 2026-11-26 on the Key 37 (MPC OS 3.10.1.12): loads and sounds
+   right (owner). Recorded in `tested.json`.
 2. **Public repo** `lichthaus/mpc-vst-revvy85`: push `main` (commits as
    `Lichthaus <78316715+lichthaus@users.noreply.github.com>` only), tag `v0.4.0`.
 3. **GitHub release** `v0.4.0` with `Revvy85-0.4.0-mpc-aarch64.zip` attached (re-run
