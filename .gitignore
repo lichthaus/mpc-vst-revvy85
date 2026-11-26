@@ -1,0 +1,7 @@
+build/
+dist/
+plugin/Revvy85/skins/
+*.bin
+*.rom
+.DS_Store
+__pycache__/

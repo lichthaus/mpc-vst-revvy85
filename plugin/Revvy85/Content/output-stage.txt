@@ -1,0 +1,9 @@
+# REV7 analogue stages, fitted to a reference unit (wet round trip of DELAY L,R / interface loopback),
+# 7 sections; the converter hold (sin x / x at 31.25 kHz) is built into the engine.
+# Whole response on the output side; the input side is left ideal (linear, so the sum is the same).
+hp1 13.4817
+s2 2.268618e+03 1.247328e+00 0 2.268618e+03 1 0 289.5
+s2 2.914528e+09 4.317023e+04 1 2.914528e+09 3.130170e+04 1 8592.2
+s2 5.897626e+09 0 6.965738e-01 5.897626e+09 4.757399e+04 1 12222.5
+s2 6.168638e+09 0 8.316666e-01 6.168638e+09 5.228260e+03 1 12500.1
+lp1 15000.0

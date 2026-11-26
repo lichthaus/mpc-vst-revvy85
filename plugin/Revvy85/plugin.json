@@ -1,0 +1,16 @@
+{
+  "name": "Revvy85",
+  "manufacturer": "Lichthaus",
+  "version": "0.4.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LhR7",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Effect",
+  "file64": "VST/revvy85-arm64.so",
+  "description": "Emulation of a 1985 digital reverb's hardware, running your own V1.0 EPROM dump (not included).",
+  "author": "Lichthaus",
+  "url": "https://github.com/lichthaus/mpc-vst-revvy85",
+  "license": "MIT"
+}

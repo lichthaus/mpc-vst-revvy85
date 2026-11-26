@@ -1,0 +1,11 @@
+{
+  "kit": "cyan",
+  "pages": [
+    { "name": "LEVELS", "controls": [
+      { "param": "Program", "widget": "knob" }, { "param": "Mixing", "widget": "knob" },
+      { "param": "Input Level", "widget": "knob" }, { "param": "Volume", "widget": "fader" },
+      { "param": "Display 1", "widget": "slider" }, { "param": "Display 2", "widget": "slider" },
+      { "param": "Headroom", "widget": "slider", "overlay": "menu" }, { "param": "Stages", "widget": "switch" },
+      { "param": "Mono", "widget": "switch" }, { "param": "SEM BP", "widget": "switch" } ] }
+  ]
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "path": "Content/roms",
+    "label": "EPROM",
+    "description": "Your own dump of the unit's V1.0 program EPROM (27256, 32 KB). Not included.",
+    "hint": "Read the EPROM of your own unit with an EPROM reader.",
+    "rules": [
+      { "label": "V1.0 EPROM", "ext": [".bin"], "size": 32768, "save_as": "rev7_v1.0.bin",
+        "unverified": true,
+        "note": "The plugin checks it when it loads: an EPROM other than the tested V1.0 dump still runs, and the display shows Unknown EPROM for a few seconds." }
+    ]
+  }
+]
